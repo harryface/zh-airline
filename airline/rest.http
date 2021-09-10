@@ -1,0 +1,36 @@
+POST http://localhost:8000/api/v1/aeroplane HTTP/1.1
+content-type: application/json
+
+{
+    "id": 10,
+    "name": "Boeing 737 5",
+    "passenger": 45
+}
+
+###
+
+POST http://localhost:8000/api/v1/aeroplane HTTP/1.1
+content-type: application/json
+
+[
+    {
+        "id": 7,
+        "name": "Airbus A350",
+        "passenger": 2
+    },
+    {
+        "id": 16,
+        "name": "Boeing 737",
+        "passenger": 5
+    },
+    {
+        "id": 2,
+        "name": "Airbus A350",
+        "passenger": 2
+    },
+    {
+        "id": 1,
+        "name": "Airbus A350",
+        "passenger": 20
+    }
+]
