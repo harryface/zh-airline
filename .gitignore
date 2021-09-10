@@ -130,5 +130,7 @@ dmypy.json
 
 # Django
 .env
+.coverage
 db.sqlite3
-/migrations
+*\migrations
+*\__pycache__
